@@ -1,0 +1,21 @@
+:root {
+    --primary: #e84142;
+    --secondary: #000;
+    --tertiary: #5cceff;
+    --bg-color: #f8f8f8;
+    --font: 'Montserrat', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    min-width: 300px;
+}
+
+.list__header, .bg-primary {
+    background-color: var(--primary) !important;
+}

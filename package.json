@@ -1,0 +1,30 @@
+{
+  "name": "ava-crypto-list",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.4",
+    "tailwindcss": "^1.9.6",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.5.1",
+    "vue-router": "^3.1.6",
+    "vue-tailwind": "^1.3.0",
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.3.0",
+    "@vue/cli-plugin-typescript": "^4.3.0",
+    "@vue/cli-service": "^4.3.0",
+    "typescript": "~3.8.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
